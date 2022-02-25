@@ -1,0 +1,23 @@
+{
+  "name": "myaxios",
+  "version": "1.0.0",
+  "description": "axios learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torres7707/MyAxios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torres7707/MyAxios/issues"
+  },
+  "homepage": "https://github.com/Torres7707/MyAxios#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "json-server": "^0.17.0"
+  }
+}
