@@ -21,6 +21,7 @@ function dispatchRequest(config) {
 	return xhrAdapter(config).then(
 		(response) => {
 			// 对响应的结果进行处理
+			return response;
 		},
 		(err) => {
 			console.log(err);
@@ -53,3 +54,5 @@ function xhrAdapter(config) {
 		};
 	});
 }
+
+let axios = Axios.prototype.request.bind(null);
